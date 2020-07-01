@@ -1,4 +1,51 @@
-.hero {
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
   background: #13475b;
+}
+
+.hero {
   color: white;
+  padding: 32px 15px;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: normal;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5em;
+  border-radius: 0.625rem;
+}
+
+.form input {
+  width: 100%;
+  padding: 0.625rem;
+  font-size: 16px;
+  border: 1px solid #dbdbe2;
+  border-radius: 0.3125rem;
+  box-sizing: border-box;
+  margin-bottom: 0.625rem;
+}
+
+.form p {
+  font-size: 1.25rem;
+  color: #3a3b3f;
+  margin-bottom: 1em;
+}
+
+.form button {
+  background: #98ca3f;
+  color: white;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 0.3125rem;
+  border: none;
+  border-bottom: 5px solid #6d932b;
+  display: inline-block;
 }
